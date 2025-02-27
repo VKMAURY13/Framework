@@ -20,20 +20,4 @@
       </class> <!-- com.comcast.crm.parallelexecutiontest.OrganizationTest -->
     </classes>
   </test> <!-- Test_CHROMETEST(failed) -->
-  <test thread-count="5" name="Test_FIREFOXTEST(failed)">
-    <parameter name="BROWSER" value="firefox"/>
-    <classes>
-      <class name="com.comcast.crm.parallelexecutiontest.OrganizationTest">
-        <methods>
-          <include name="createOrganizationwithOrgName"/>
-          <include name="configAM"/>
-          <include name="configBM"/>
-          <include name="configAS"/>
-          <include name="configAC"/>
-          <include name="configBS"/>
-          <include name="configBC"/>
-        </methods>
-      </class> <!-- com.comcast.crm.parallelexecutiontest.OrganizationTest -->
-    </classes>
-  </test> <!-- Test_FIREFOXTEST(failed) -->
 </suite> <!-- Failed suite [Suite] -->
