@@ -45,7 +45,7 @@ public class OrganizationTest extends BaseClass{
 		Assert.assertTrue(status);
 		
 		//Verification by Organization Name text
-		String actorgname = oip.getOrgnametext().getText()+" ";
+		String actorgname = oip.getOrgnametext().getText();
 		SoftAssert sa = new SoftAssert();
 		Assert.assertEquals(actorgname, ORGNAME);
 		
