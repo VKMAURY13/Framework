@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners><listener class-name="com.comcast.CRM.listenerutility.ListenerImpClass"></listener></listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.comcast.crm.pomorgtest.CreateOrganizationWithOrgNameTest"/>
+      <class name="com.comcast.crm.pomorgtest.CreateOrganizationWithPhoneNumberTest"/>
+      <class name="com.comcast.crm.pomorgtest.CreateContactWithLastNameTest"/>
+      <class name="com.comcast.crm.pomorgtest.CreateOrgannizationWithIndustryTest"/>
+      <class name="com.comcast.crm.pomorgtest.CreateContactWithSupportDateTest"/>
+      <class name="com.comcast.crm.pomorgtest.CreateContactWithOrganizationTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

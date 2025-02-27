@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.comcast.CRM.listenerutility.ListenerImpClass"/>
+  </listeners>
+  <test thread-count="5" name="Test_CHROMETEST(failed)">
+    <parameter name="BROWSER" value="chrome"/>
+    <classes>
+      <class name="com.comcast.crm.parallelexecutiontest.OrganizationTest">
+        <methods>
+          <include name="createOrganizationwithOrgName"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+        </methods>
+      </class> <!-- com.comcast.crm.parallelexecutiontest.OrganizationTest -->
+    </classes>
+  </test> <!-- Test_CHROMETEST(failed) -->
+  <test thread-count="5" name="Test_FIREFOXTEST(failed)">
+    <parameter name="BROWSER" value="firefox"/>
+    <classes>
+      <class name="com.comcast.crm.parallelexecutiontest.OrganizationTest">
+        <methods>
+          <include name="createOrganizationwithOrgName"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="configAS"/>
+          <include name="configAC"/>
+          <include name="configBS"/>
+          <include name="configBC"/>
+        </methods>
+      </class> <!-- com.comcast.crm.parallelexecutiontest.OrganizationTest -->
+    </classes>
+  </test> <!-- Test_FIREFOXTEST(failed) -->
+</suite> <!-- Failed suite [Suite] -->

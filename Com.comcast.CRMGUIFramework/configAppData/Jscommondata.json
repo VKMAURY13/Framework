@@ -1,0 +1,8 @@
+{
+    "Browser": "Chrome",
+    "Version": "120.0",
+    "Url": "http://49.249.28.218:8888/",
+    "Username" : "admin",
+    "Password" : "admin",
+    "Timeouts" : 20
+}

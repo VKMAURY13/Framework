@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="4" failed="2" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[=====Connect to Database, Report config=====]]>
+    </line>
+    <line>
+      <![CDATA[==========Launch Browser==========]]>
+    </line>
+    <line>
+      <![CDATA[chrome]]>
+    </line>
+    <line>
+      <![CDATA[==========Login=========]]>
+    </line>
+    <line>
+      <![CDATA[========LOGOUT========]]>
+    </line>
+    <line>
+      <![CDATA[==========Login=========]]>
+    </line>
+    <line>
+      <![CDATA[========LOGOUT========]]>
+    </line>
+    <line>
+      <![CDATA[==========Login=========]]>
+    </line>
+    <line>
+      <![CDATA[========LOGOUT========]]>
+    </line>
+    <line>
+      <![CDATA[=======CLOSE BROWSER========]]>
+    </line>
+    <line>
+      <![CDATA[==========Launch Browser==========]]>
+    </line>
+    <line>
+      <![CDATA[firefox]]>
+    </line>
+    <line>
+      <![CDATA[==========Login=========]]>
+    </line>
+    <line>
+      <![CDATA[========LOGOUT========]]>
+    </line>
+    <line>
+      <![CDATA[==========Login=========]]>
+    </line>
+    <line>
+      <![CDATA[========LOGOUT========]]>
+    </line>
+    <line>
+      <![CDATA[==========Login=========]]>
+    </line>
+    <line>
+      <![CDATA[=======CLOSE BROWSER========]]>
+    </line>
+    <line>
+      <![CDATA[=========CLOSE DB, Report BACKUP==========]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-02-27T17:07:18Z" name="Suite" finished-at="2025-02-27T17:08:56Z" duration-ms="98717">
+    <groups>
+    </groups>
+    <test started-at="2025-02-27T17:07:18Z" name="Test_CHROMETEST" finished-at="2025-02-27T17:08:25Z" duration-ms="67273">
+      <class name="com.comcast.crm.parallelexecutiontest.OrganizationTest">
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.comcast.crm.parallelexecutiontest.OrganizationTest@7b205dbd]" started-at="2025-02-27T17:07:18Z" name="configBC" finished-at="2025-02-27T17:07:48Z" duration-ms="30474" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[==========Launch Browser==========]]>
+            </line>
+            <line>
+              <![CDATA[chrome]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.parallelexecutiontest.OrganizationTest@7b205dbd]" started-at="2025-02-27T17:07:48Z" name="configBM" finished-at="2025-02-27T17:07:55Z" duration-ms="6915" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==========Login=========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createOrgWithPhonenumTest()[pri:0, instance:com.comcast.crm.parallelexecutiontest.OrganizationTest@7b205dbd]" started-at="2025-02-27T17:07:55Z" name="createOrgWithPhonenumTest" finished-at="2025-02-27T17:08:01Z" duration-ms="6090" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithPhonenumTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.parallelexecutiontest.OrganizationTest@7b205dbd]" started-at="2025-02-27T17:08:01Z" name="configAM" finished-at="2025-02-27T17:08:04Z" duration-ms="2965" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[========LOGOUT========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.parallelexecutiontest.OrganizationTest@7b205dbd]" started-at="2025-02-27T17:08:04Z" name="configBM" finished-at="2025-02-27T17:08:06Z" duration-ms="2212" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==========Login=========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createOrganization()[pri:0, instance:com.comcast.crm.parallelexecutiontest.OrganizationTest@7b205dbd]" started-at="2025-02-27T17:08:06Z" name="createOrganization" finished-at="2025-02-27T17:08:10Z" duration-ms="3418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganization -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.parallelexecutiontest.OrganizationTest@7b205dbd]" started-at="2025-02-27T17:08:10Z" name="configAM" finished-at="2025-02-27T17:08:13Z" duration-ms="3383" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[========LOGOUT========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.parallelexecutiontest.OrganizationTest@7b205dbd]" started-at="2025-02-27T17:08:13Z" name="configBM" finished-at="2025-02-27T17:08:15Z" duration-ms="1727" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==========Login=========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createOrganizationwithOrgName()[pri:0, instance:com.comcast.crm.parallelexecutiontest.OrganizationTest@7b205dbd]" started-at="2025-02-27T17:08:15Z" name="createOrganizationwithOrgName" finished-at="2025-02-27T17:08:22Z" duration-ms="6661" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Testing_772] but found [Testing_772 ]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Testing_772] but found [Testing_772 ]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.comcast.crm.parallelexecutiontest.OrganizationTest.createOrganizationwithOrgName(OrganizationTest.java:50)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationwithOrgName -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.parallelexecutiontest.OrganizationTest@7b205dbd]" started-at="2025-02-27T17:08:22Z" name="configAM" finished-at="2025-02-27T17:08:25Z" duration-ms="2797" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[========LOGOUT========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.parallelexecutiontest.OrganizationTest@7b205dbd]" started-at="2025-02-27T17:08:25Z" name="configAC" finished-at="2025-02-27T17:08:25Z" duration-ms="270" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=======CLOSE BROWSER========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+      </class> <!-- com.comcast.crm.parallelexecutiontest.OrganizationTest -->
+    </test> <!-- Test_CHROMETEST -->
+    <test started-at="2025-02-27T17:08:25Z" name="Test_FIREFOXTEST" finished-at="2025-02-27T17:08:56Z" duration-ms="31406">
+      <class name="com.comcast.crm.parallelexecutiontest.OrganizationTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.comcast.crm.parallelexecutiontest.OrganizationTest@632ceb35]" started-at="2025-02-27T17:07:17Z" name="configBS" finished-at="2025-02-27T17:07:18Z" duration-ms="409" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=====Connect to Database, Report config=====]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method is-config="true" signature="configBC(java.lang.String)[pri:0, instance:com.comcast.crm.parallelexecutiontest.OrganizationTest@632ceb35]" started-at="2025-02-27T17:08:25Z" name="configBC" finished-at="2025-02-27T17:08:30Z" duration-ms="4702" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[==========Launch Browser==========]]>
+            </line>
+            <line>
+              <![CDATA[firefox]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.parallelexecutiontest.OrganizationTest@632ceb35]" started-at="2025-02-27T17:08:30Z" name="configBM" finished-at="2025-02-27T17:08:35Z" duration-ms="5026" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==========Login=========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createOrgWithPhonenumTest()[pri:0, instance:com.comcast.crm.parallelexecutiontest.OrganizationTest@632ceb35]" started-at="2025-02-27T17:08:35Z" name="createOrgWithPhonenumTest" finished-at="2025-02-27T17:08:39Z" duration-ms="4432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrgWithPhonenumTest -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.parallelexecutiontest.OrganizationTest@632ceb35]" started-at="2025-02-27T17:08:39Z" name="configAM" finished-at="2025-02-27T17:08:42Z" duration-ms="3002" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[========LOGOUT========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.parallelexecutiontest.OrganizationTest@632ceb35]" started-at="2025-02-27T17:08:42Z" name="configBM" finished-at="2025-02-27T17:08:44Z" duration-ms="1552" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==========Login=========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method signature="createOrganization()[pri:0, instance:com.comcast.crm.parallelexecutiontest.OrganizationTest@632ceb35]" started-at="2025-02-27T17:08:44Z" name="createOrganization" finished-at="2025-02-27T17:08:47Z" duration-ms="3718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganization -->
+        <test-method is-config="true" signature="configAM()[pri:0, instance:com.comcast.crm.parallelexecutiontest.OrganizationTest@632ceb35]" started-at="2025-02-27T17:08:47Z" name="configAM" finished-at="2025-02-27T17:08:50Z" duration-ms="2794" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[========LOGOUT========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method signature="createOrganizationwithOrgName()[pri:0, instance:com.comcast.crm.parallelexecutiontest.OrganizationTest@632ceb35]" started-at="2025-02-27T17:08:50Z" name="createOrganizationwithOrgName" finished-at="2025-02-27T17:08:55Z" duration-ms="4773" status="FAIL">
+          <exception class="org.openqa.selenium.UnhandledAlertException">
+            <message>
+              <![CDATA[Unexpected alert dialog detected. Performed handler "dismiss". Dialog text: Organization Name Already Exists!: Organization Name Already Exists!
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.6', java.version: '21.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [28312ac6-b095-40ea-a101-0208e0b49a74, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0.1, moz:accessibilityChecks: false, moz:buildID: 20250216192613, moz:debuggerAddress: 127.0.0.1:27411, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 25493, moz:profile: /var/folders/79/gm1vxm5s1ml..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:27411/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 28312ac6-b095-40ea-a101-0208e0b49a74]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnhandledAlertException: Unexpected alert dialog detected. Performed handler "dismiss". Dialog text: Organization Name Already Exists!: Organization Name Already Exists!
+Build info: version: '4.24.0', revision: '748ffc9bc3'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.7.6', java.version: '21.0.4'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [28312ac6-b095-40ea-a101-0208e0b49a74, screenshot {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 135.0.1, moz:accessibilityChecks: false, moz:buildID: 20250216192613, moz:debuggerAddress: 127.0.0.1:27411, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 21.6.0, moz:processID: 25493, moz:profile: /var/folders/79/gm1vxm5s1ml..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://127.0.0.1:27411/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Macintosh; Int...}
+Session ID: 28312ac6-b095-40ea-a101-0208e0b49a74
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:136)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:334)
+at com.comcast.CRM.listenerutility.ListenerImpClass.onTestFailure(ListenerImpClass.java:81)
+at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:67)
+at org.testng.internal.Invoker.runTestListeners(Invoker.java:1389)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:636)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createOrganizationwithOrgName -->
+        <test-method is-config="true" signature="configBM()[pri:0, instance:com.comcast.crm.parallelexecutiontest.OrganizationTest@632ceb35]" started-at="2025-02-27T17:08:50Z" name="configBM" finished-at="2025-02-27T17:08:52Z" duration-ms="1638" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[==========Login=========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method is-config="true" signature="configAC()[pri:0, instance:com.comcast.crm.parallelexecutiontest.OrganizationTest@632ceb35]" started-at="2025-02-27T17:08:55Z" name="configAC" finished-at="2025-02-27T17:08:56Z" duration-ms="1202" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=======CLOSE BROWSER========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAC -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.comcast.crm.parallelexecutiontest.OrganizationTest@632ceb35]" started-at="2025-02-27T17:08:56Z" name="configAS" finished-at="2025-02-27T17:08:56Z" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[=========CLOSE DB, Report BACKUP==========]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.comcast.crm.parallelexecutiontest.OrganizationTest -->
+    </test> <!-- Test_FIREFOXTEST -->
+  </suite> <!-- Suite -->
+</testng-results>
