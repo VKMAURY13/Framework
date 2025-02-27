@@ -56,7 +56,7 @@
   </dependencies>
   <profiles>
   <profile>
-  <id>DP</id>
+  <id>CBT</id>
   <build>
      <plugins>
           <plugin>
@@ -65,7 +65,7 @@
           <version>2.20</version>
           <configuration>
           <suiteXmlFiles>
-          <suiteXmlFile>deleteproduct25022025.xml</suiteXmlFile>
+          <suiteXmlFile>testngCROSSBROWSER.xml</suiteXmlFile>
           </suiteXmlFiles>
           </configuration>
           </plugin>
